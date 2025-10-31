@@ -14,6 +14,8 @@ identify==2.6.15
 luma.core==2.5.1
 luma.oled==3.14.0
 nodeenv==1.9.1
+numpy==2.3.4
+opencv-python==4.9.0.80
 pillow==12.0.0
 platformdirs==4.5.0
 pre_commit==4.3.0
