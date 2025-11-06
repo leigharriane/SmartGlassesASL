@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+.venv/
+test/
+.test/
+test
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Distribution and build artifacts
+dist/
+build/
+*.egg-info/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
