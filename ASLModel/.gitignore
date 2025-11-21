@@ -4,6 +4,8 @@ venv/
 test/
 .test/
 test
+.venv_sys
+.venv_pi
 
 # Byte-compiled files
 __pycache__/
