@@ -100,7 +100,7 @@ detector = HandDetector(maxHands=1)
 # Configuration
 offset = 20
 imgSize = 300
-folder = "Data/Z"
+folder = "DataPi/R"
 counter = 0
 
 # Create folder if it doesn't exist
@@ -183,9 +183,9 @@ try:
             break
         
         # Optional: Break after certain number of images
-        # if counter >= 20:
-        #     print("Reached target number of images.")
-        #     break
+        if counter >= 20:
+            print("Reached target number of images.")
+            break
 
 except KeyboardInterrupt:
     print("\nInterrupted by user")
