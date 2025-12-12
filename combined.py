@@ -215,14 +215,14 @@ class SimpleKerasModel:
 # Try to import TensorFlow, fall back if not available
 try:
     from tensorflow import keras
-    model = keras.models.load_model("Model/keras_model.h5", compile=False)
+    model = keras.models.load_model("ModelPi/keras_model.h5", compile=False)
     print("Model loaded with TensorFlow/Keras")
 except Exception as e:
     print(f"TensorFlow not available ({e}), using fallback")
-    model = SimpleKerasModel("Model/keras_model.h5")
+    model = SimpleKerasModel("ModelPi/keras_model.h5")
 
 # Load labels
-with open("Model/labels.txt", "r") as f:
+with open("ModelPi/labels.txt", "r") as f:
     labels = [line.strip() for line in f.readlines()]
 
 # Initialize hand detector
