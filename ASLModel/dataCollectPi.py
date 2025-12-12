@@ -100,7 +100,7 @@ detector = HandDetector(maxHands=1)
 # Configuration
 offset = 20
 imgSize = 300
-folder = "DataPi/R"
+folder = "DataPi/Z"
 counter = 0
 
 # Create folder if it doesn't exist
